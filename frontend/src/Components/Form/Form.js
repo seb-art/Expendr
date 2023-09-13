@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 import { plus } from "../../utils/Icons";
 
 function Form() {
-  const { addIncome, getIncomes, error, setError } = useGlobalContext();
+  const { addIncome, error, setError } = useGlobalContext();
   const [inputState, setInputState] = useState({
     title: "",
     amount: "",
@@ -43,7 +43,7 @@ function Form() {
           type="text"
           value={title}
           name={"title"}
-          placeholder="Salary Title"
+          placeholder="Expense Title"
           onChange={handleInput("title")}
         />
       </div>
@@ -52,7 +52,7 @@ function Form() {
           value={amount}
           type="text"
           name={"amount"}
-          placeholder={"Salary Amount"}
+          placeholder={"Expense Amount"}
           onChange={handleInput("amount")}
         />
       </div>
@@ -101,7 +101,7 @@ function Form() {
       </div>
       <div className="submit-btn">
         <Button
-          name={"Add Income"}
+          name={"Add Expense"}
           icon={plus}
           bPad={".8rem 1.6rem"}
           bRad={"30px"}
