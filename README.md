@@ -33,7 +33,7 @@ Before you can use Expendr, ensure you have the following prerequisites installe
 1. Clone the Expendr repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/expendr.git
+   git clone https://github.com/seb-art/Expendr.git
    ```
 
 2. Navigate to the project directory:
@@ -45,12 +45,15 @@ Before you can use Expendr, ensure you have the following prerequisites installe
 3. Install the dependencies for both the frontend and backend:
 
    ```bash
+   # Install landing-page dependencies
+   cd landing
+   npm install
    # Install frontend dependencies
-   cd client
+   cd frontend
    npm install
 
    # Install backend dependencies
-   cd ../server
+   cd backend
    npm install
    ```
 
@@ -60,19 +63,26 @@ Before you can use Expendr, ensure you have the following prerequisites installe
 
 5. Start the development servers:
 
-   - Frontend (React):
+   - Landing page (React):
 
      ```bash
-     cd client
+     cd landing
      npm start
      ```
 
-   - Backend (Node.js/Express):
+- Frontend (React):
 
-     ```bash
-     cd server
-     npm start
-     ```
+  ```bash
+  cd frontend
+  npm start
+  ```
+
+- Backend (Node.js/Express):
+
+  ```bash
+  cd backend
+  npm start
+  ```
 
 6. Access the application in your web browser at `http://localhost:3000`.
 
@@ -108,10 +118,6 @@ Setting budgets helps you stay on top of your spending. Create budgets for speci
 
 Expendr generates detailed reports and charts to help you visualize your spending patterns over time. Analyze your expenses to make informed financial decisions.
 
-## Contributing
-
-We welcome contributions from the community. If you'd like to contribute to Expendr, please check out our [Contribution Guidelines](CONTRIBUTING.md) for more information on how to get involved.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is not licensed at the time of its posting
