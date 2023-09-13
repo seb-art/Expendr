@@ -1,6 +1,6 @@
 # Expendr - Expense Tracking Web Application
 
-![Expendr screenshot]()
+![Expendr screenshot](expendr.png)
 
 Expendr is a web application designed to help you take control of your finances by tracking your expenses effortlessly. With Expendr, you can easily record and categorize your expenses, set budgets, and generate insightful reports to gain a better understanding of your spending habits.
 
